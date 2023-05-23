@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navBar{
+    display: grid;
+    grid-template-areas: 
+    "one two three four five six seven eight";
+    
+}
+.leftSide {
+    margin: 4px;
+    grid-area: one;
+}
+.rightSide {
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    grid-area: eight;
+    justify-content: space-between;
+    align-items: center;
+}
