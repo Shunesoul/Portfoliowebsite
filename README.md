@@ -14,3 +14,17 @@ Link will scroll down to the area on the page
 Color scheme will be a muted dark blue, teal, white, grey, yellow, red
 Page will have style page breaks depending on the section
 
+color scheme options{
+    {
+    color:#40d9cd;
+    color:#2ad0c3;
+    color:#24b6ab;
+    color:#1f9c93;
+    color:#1a827a;
+    color:#156862;
+    color:#104e49;
+    color:#0a3431;
+    color:#051a18;
+    color:#000000;
+}
+}
