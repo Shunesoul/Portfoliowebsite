@@ -15,6 +15,7 @@
     margin: 1rem;
     grid-area: one;
     color: grey;
+    align-items: center;
 }
 .rightSide {
     margin: 1rem;
@@ -28,9 +29,26 @@
     color: #2ad0c3;
     text-decoration: none;
 }
+.rightSide a:hover {
+    text-decoration: underline;
+    transform: scale(1.5);
+    transition: transform .3s ease-in-out;
+}
 .rightSide button {
     color: white;
     background-color: #2ad0c3;
     border: solid rgba(0, 0, 0, 0);
-    border-radius: 1rem;
+    border-radius: 2rem;
+    padding: 8px;
+    font-size: 1rem;
+}
+.bigContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.topContent {
+    display: flex;
+    flex-direction: column;
 }
