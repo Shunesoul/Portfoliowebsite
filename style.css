@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    background-color: #051a18;
 }
 .navBar{
     display: grid;
@@ -10,14 +12,25 @@
     
 }
 .leftSide {
-    margin: 4px;
+    margin: 1rem;
     grid-area: one;
+    color: grey;
 }
 .rightSide {
-    margin: 4px;
+    margin: 1rem;
     display: flex;
     flex-direction: row;
     grid-area: eight;
     justify-content: space-between;
     align-items: center;
+}
+.rightSide a {
+    color: #2ad0c3;
+    text-decoration: none;
+}
+.rightSide button {
+    color: white;
+    background-color: #2ad0c3;
+    border: solid rgba(0, 0, 0, 0);
+    border-radius: 1rem;
 }
