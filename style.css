@@ -82,3 +82,31 @@
     transform: scale(1.5);
     transition: transform .3s ease-in-out;
 }
+.topPiece {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.topContent img {
+    height: 10rem;
+    width: 20rem;
+}
+.infoSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+    ;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.infoSection h1 {
+    margin: 2rem;
+    color:#1f9c93;
+}
+.infoSection li {
+    color: grey;
+}
