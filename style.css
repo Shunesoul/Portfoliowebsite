@@ -5,6 +5,9 @@
     box-sizing: border-box;
     background-color: #051a18;
 }
+html {
+    scroll-behavior: smooth;
+}
 .navBar{
     display: grid;
     grid-template-areas: 
@@ -41,6 +44,7 @@
     border-radius: 2rem;
     padding: 8px;
     font-size: 1rem;
+    cursor: pointer;
 }
 .bigContainer {
     display: flex;
@@ -98,8 +102,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem
-    ;
+    gap: 1rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -109,4 +112,41 @@
 }
 .infoSection li {
     color: grey;
+}
+.workSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    text-align: center;
+}
+.workSection h1 {
+    color: #1f9c93;
+    margin-bottom: 1rem;
+}
+.workSection p {
+    color: grey;
+    text-align: center;
+    margin: 8px;
+}
+.article{
+    display: flex;
+    text-align:start;
+}
+.articleLeft {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+}
+.articleRight {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    align-items: center;
+}
+.article h2 {
+    color: #1f9c93;
 }
